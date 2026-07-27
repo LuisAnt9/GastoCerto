@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "GastoCerto",
+    "slug": "gastocerto",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "jsEngine": "jsc",
+    "splash": { "backgroundColor": "#0A3D1F" },
+    "ios": {
+      "supportsTablet": false,
+      "jsEngine": "jsc"
+    },
+    "android": {
+      "package": "br.gastocerto.app",
+      "jsEngine": "jsc"
+    },
+    "web": { "bundler": "metro" },
+    "plugins": ["expo-sqlite"]
+  }
+}
